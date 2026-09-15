@@ -1,0 +1,17 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Local/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local n8n exports that may contain credentials
+n8n-credentials*.json
+
+# Logs / local outputs
+*.log
