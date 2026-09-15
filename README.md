@@ -4,6 +4,49 @@ A lightweight CRM data-quality and governance workflow built with **HubSpot, n8n
 
 The workflow pulls contacts, companies, and deals from HubSpot, normalizes the API responses, checks the records with deterministic rules, summarizes CRM health, flags records for corrective action, and uses OpenAI to review ambiguous duplicate-company cases. AI recommendations are sent to Slack for human review instead of being allowed to change CRM data automatically.
 
+## Workflow Walkthrough
+
+[▶ **Watch the Full Workflow Walkthrough**](docs/video/Full-workflow.mp4)
+
+## Screenshots
+
+### Final n8n Workflow
+
+![Final n8n workflow](docs/screenshots/01-final-n8n-workflow.png)
+
+### HubSpot API Ingestion and Normalization
+
+![HubSpot API normalization](docs/screenshots/02-hubspot-api-normalization.png)
+
+### CRM Remediation Queue
+
+![CRM remediation queue](docs/screenshots/03-CRM%20Remediation%20Queue.png)
+
+### CRM Quality Summary
+
+![CRM quality summary](docs/screenshots/04-CRM%20Quality%20Summary.png)
+
+### OpenAI Duplicate Analysis
+
+![OpenAI duplicate analysis](docs/screenshots/05-ai-duplicate-analysis.png)
+
+### Slack Human-Review Request
+
+![Slack human review request](docs/screenshots/06-slack-human-review-request-node.png)
+
+### Slack Human-Review Channel
+
+![Slack human review channel](docs/screenshots/07-slack-human-review-channel.png)
+
+## Technology Stack
+
+- **CRM:** HubSpot
+- **Workflow automation:** n8n
+- **Programming:** JavaScript
+- **AI:** OpenAI
+- **Human review / notifications:** Slack
+- **Integration:** REST APIs, Webhooks
+
 ## Why I Built It
 
 CRM data becomes difficult to trust when records are incomplete, duplicated, stale, or not consistently owned. Manual review is slow and makes it hard to see which records need attention first.
@@ -476,49 +519,6 @@ The AI duplicate-review workflow produced a structured recommendation with:
 ```
 
 along with supporting evidence and an explicit human-review requirement.
-
-## Screenshots
-
-### Final n8n Workflow
-
-![Final n8n workflow](docs/screenshots/01-final-n8n-workflow.png)
-
-### HubSpot API Ingestion and Normalization
-
-![HubSpot API normalization](docs/screenshots/02-hubspot-api-normalization.png)
-
-### CRM Remediation Queue
-
-![CRM remediation queue](docs/screenshots/03-CRM%20Remediation%20Queue.png)
-
-### CRM Quality Summary
-
-![CRM quality summary](docs/screenshots/04-CRM%20Quality%20Summary.png)
-
-### OpenAI Duplicate Analysis
-
-![OpenAI duplicate analysis](docs/screenshots/05-ai-duplicate-analysis.png)
-
-### Slack Human-Review Request
-
-![Slack human review request](docs/screenshots/06-slack-human-review-request-node.png)
-
-### Slack Human-Review Channel
-
-![Slack human review channel](docs/screenshots/07-slack-human-review-channel.png)
-
-## Workflow Walkthrough Video
-
-<!-- ADD VIDEO / GITHUB VIDEO LINK HERE -->
-
-## Technology Stack
-
-- **CRM:** HubSpot
-- **Workflow automation:** n8n
-- **Programming:** JavaScript
-- **AI:** OpenAI
-- **Human review / notifications:** Slack
-- **Integration:** REST APIs, Webhooks
 
 ## Project Scope
 
