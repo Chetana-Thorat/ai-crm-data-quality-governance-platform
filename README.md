@@ -6,7 +6,7 @@ The workflow pulls contacts, companies, and deals from HubSpot, normalizes the A
 
 ## Workflow Walkthrough
 
-[▶ **Watch the Full Workflow Walkthrough**](docs/video/Full-workflow.mp4)
+https://github.com/user-attachments/assets/8e381eb2-7f4f-48de-901f-d5784551699b
 
 ## Screenshots
 
