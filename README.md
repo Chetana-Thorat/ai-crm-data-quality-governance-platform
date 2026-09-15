@@ -481,27 +481,31 @@ along with supporting evidence and an explicit human-review requirement.
 
 ### Final n8n Workflow
 
-<!-- ADD SCREENSHOT HERE -->
+![Final n8n workflow](docs/screenshots/01-final-n8n-workflow.png)
 
 ### HubSpot API Ingestion and Normalization
 
-<!-- ADD SCREENSHOT HERE -->
+![HubSpot API normalization](docs/screenshots/02-hubspot-api-normalization.png)
 
-### CRM Data Quality Engine / Quality Summary
+### CRM Remediation Queue
 
-<!-- ADD SCREENSHOT HERE -->
+![CRM remediation queue](docs/screenshots/03-CRM%20Remediation%20Queue.png)
 
-### CRM Issue Review / Corrective-Action Queue
+### CRM Quality Summary
 
-<!-- ADD SCREENSHOT HERE -->
+![CRM quality summary](docs/screenshots/04-CRM%20Quality%20Summary.png)
 
 ### OpenAI Duplicate Analysis
 
-<!-- ADD SCREENSHOT HERE -->
+![OpenAI duplicate analysis](docs/screenshots/05-ai-duplicate-analysis.png)
 
 ### Slack Human-Review Request
 
-<!-- ADD SCREENSHOT HERE -->
+![Slack human review request](docs/screenshots/06-slack-human-review-request-node.png)
+
+### Slack Human-Review Channel
+
+![Slack human review channel](docs/screenshots/07-slack-human-review-channel.png)
 
 ## Workflow Walkthrough Video
 
